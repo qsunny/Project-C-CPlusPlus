@@ -1,0 +1,36 @@
+10:11:22 **** Clean-only build of configuration Release for project test ****
+make clean 
+rm -rf  ./source/Helloworld.o  ./source/Helloworld.d  test
+ 
+10:11:23 **** Clean-only build of configuration Release for project test ****
+make clean 
+rm -rf  ./source/Helloworld.o  ./source/Helloworld.d  test
+ 
+10:11:23 **** Build of configuration Release for project test ****
+make all 
+Building file: ../source/Helloworld.cpp
+Invoking: Cross G++ Compiler
+g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"source/Helloworld.d" -MT"source/Helloworld.d" -o "source/Helloworld.o" "../source/Helloworld.cpp"
+Finished building: ../source/Helloworld.cpp
+ 
+Building target: test
+Invoking: Cross G++ Linker
+g++  -o "test"  ./source/Helloworld.o   
+Finished building target: test
+ 
+10:11:36 **** Clean-only build of configuration Debug for project test ****
+make clean 
+rm -rf  ./source/Helloworld.o  ./source/Helloworld.d  test
+ 
+10:11:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../source/Helloworld.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"source/Helloworld.d" -MT"source/Helloworld.d" -o "source/Helloworld.o" "../source/Helloworld.cpp"
+Finished building: ../source/Helloworld.cpp
+ 
+Building target: test
+Invoking: Cross G++ Linker
+g++  -o "test"  ./source/Helloworld.o   
+Finished building target: test
+ 

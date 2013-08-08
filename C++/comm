@@ -1,0 +1,1000 @@
+ 1243  ls
+ 1244  nano User.cpp
+ 1245  g++ -o User User.cpp
+ 1246  nano User.cpp
+ 1247  g++ -o User User.cpp
+ 1248  clear
+ 1249  nano User.cpp
+ 1250  ls
+ 1251  ls -la
+ 1252  ls -l
+ 1253  clear
+ 1254  g++ -o User User.cpp
+ 1255  cat User.cpp
+ 1256  nano User.cpp
+ 1257  g++ -o User User.cpp
+ 1258  nano User.cpp
+ 1259  g++ -o User User.cpp
+ 1260  nano User.cpp
+ 1261  g++ -o User User.cpp
+ 1262  nano User.cpp
+ 1263  g++ -o User User.cpp
+ 1264  nano User.cpp
+ 1265  g++ -o User User.cpp
+ 1266  ls
+ 1267  ./User
+ 1268  nano User.cpp
+ 1269  g++ -o User User.cpp
+ 1270  ./User
+ 1271  clear
+ 1272  nano User.cpp
+ 1273  g++ -o User User.cpp
+ 1274  ./User
+ 1275  nano User.cpp
+ 1276  g++ -o User User.cpp
+ 1277  ./User
+ 1278  nano User.cpp
+ 1279  g++ -o User User.cpp
+ 1280  nano User.cpp
+ 1281  g++ -o User User.cpp
+ 1282  ./User
+ 1283  clear
+ 1284  nano virtualFun.cpp
+ 1285  g++ -o virtualFun virtualFun.cpp 
+ 1286  ./virtualFun 
+ 1287  nano virtualFun.cpp
+ 1288  g++ -o virtualFun virtualFun.cpp 
+ 1289  ./virtualFun 
+ 1290  nano virtualFun.cpp
+ 1291  g++ -o virtualFun virtualFun.cpp 
+ 1292  ./virtualFun 
+ 1293  nano aa.txt
+ 1294  ls
+ 1295  clear
+ 1296  nano aa
+ 1297  exit
+ 1298  ls
+ 1299  cd /etc/
+ 1300  ls
+ 1301  network
+ 1302  cd network/
+ 1303  ls
+ 1304  cd ..
+ 1305  cat hosts
+ 1306  ls
+ 1307  find host*
+ 1308  cat hosts
+ 1309  find host*
+ 1310  cat host.conf
+ 1311  cat hosts
+ 1312  nano hosts
+ 1313  cat hosts
+ 1314  nano hosts
+ 1315  cat hosts
+ 1316  clear
+ 1317  cat hosts
+ 1318  nano hosts
+ 1319  cat hosts
+ 1320  nano hosts
+ 1321  find hosts*
+ 1322  find host*
+ 1323  cat hosts
+ 1324  exit
+ 1325  ls
+ 1326  cd workspace/
+ 1327  ls
+ 1328  cd JobcnX-person/
+ 1329  ls
+ 1330  cd web
+ 1331  ls
+ 1332  pwd
+ 1333  cd ..
+ 1334  ls
+ 1335  cd JobcnX-enterprise/
+ 1336  ls
+ 1337  cd web
+ 1338  pwd
+ 1339  cd ..
+ 1340  ls
+ 1341  cd ..
+ 1342  ls
+ 1343  cd JobcnX-weihu/
+ 1344  ls
+ 1345  cd web
+ 1346  ls
+ 1347  cd ..
+ 1348  ls
+ 1349  pwd
+ 1350  exit
+ 1351  ls
+ 1352  cd 下载
+ 1353  ls
+ 1354  ls ~/Aaron
+ 1355  ls ~
+ 1356  ls ~/software/
+ 1357  ls
+ 1358  mv ./nginx-1.5.0.tar.gz ~/software/
+ 1359  ls
+ 1360  ls ~/software/
+ 1361  cd ~/software
+ 1362  ls
+ 1363  tar -zxvf nginx-1.5.0.tar.gz /nginx-1.5
+ 1364  tar -zxvf nginx-1.5.0.tar.gz ./nginx-1.5
+ 1365  mkdir nginx-1.5
+ 1366  tar -zxvf nginx-1.5.0.tar.gz ./nginx-1.5
+ 1367  tar -zxvf nginx-1.5.0.tar.gz nginx-1.5
+ 1368  ls nginx*
+ 1369  ls -l
+ 1370  ls -la ng*
+ 1371  ls
+ 1372  man tar
+ 1373  tar -zxvcf nginx-1.5.0.tar.gz ./nginx-1.5
+ 1374  tar -zxvf nginx-1.5.0.tar.gz
+ 1375  ls
+ 1376  ls nginx*
+ 1377  rm -rf nginx-1.5
+ 1378  cd nginx-1.5.0/
+ 1379  ls
+ 1380  ./configure
+ 1381  apt-cache search pcre
+ 1382  aptitude install libpcre3-dev
+ 1383  apt-get install libpcre3-dev
+ 1384  sudo apt-get install libpcre3-dev
+ 1385  ./configure
+ 1386  apt-cache search zlib
+ 1387  sudo apt-get install lib32z1-dev
+ 1388  sudo apt-get install lib32z1
+ 1389  ./configure
+ 1390  apt-cache search zlib
+ 1391  sudo apt-get install lib64z1
+ 1392  apt-get install  zlib
+ 1393  sudo apt-get install  zlib
+ 1394  apt-cache search zlib
+ 1395  sudo apt-get install  zlib-bin
+ 1396  ./configure
+ 1397  apt-cache search zlib
+ 1398  sudo apt-get install  zlib1g-dev
+ 1399  sudo apt-get install  libghc-zlib-dev
+ 1400  ./configure
+ 1401  make
+ 1402  sudo make install
+ 1403  cd ..
+ 1404  ls
+ 1405  cd nginx-1.5
+ 1406  cd nginx-1.5.0/
+ 1407  ls
+ 1408  cd conf
+ 1409  ls
+ 1410  cd /usr/local/nginx/sbin
+ 1411  ls
+ 1412  ./nginx -t
+ 1413  sudo ./nginx -t
+ 1414  ./nginx
+ 1415  sudo ./nginx 
+ 1416  netstat -ano | 80
+ 1417  top 
+ 1418  cd ~/software
+ 1419  ls
+ 1420  cd nginx-1.5.0/
+ 1421  ls
+ 1422  cd config
+ 1423  ls
+ 1424  cd conf
+ 1425  ls
+ 1426  nano nginx.conf 
+ 1427  ls
+ 1428  cp nginx.conf nginx20130627.conf
+ 1429  ls
+ 1430  nano nginx.conf 
+ 1431  ls ../
+ 1432  cd ..
+ 1433  ls
+ 1434  cd auto
+ 1435  ls
+ 1436  cd ..
+ 1437  ls
+ 1438  ./nginx -s reload
+ 1439  cd /usr
+ 1440  ls
+ 1441  cd local
+ 1442  ls
+ 1443  cd nginx
+ 1444  ls
+ 1445  ./nginx -s reload
+ 1446  cd sbin
+ 1447  ls
+ 1448  ls -l
+ 1449  nginx -s reload
+ 1450  ./nginx -s reload
+ 1451  nginx -h
+ 1452  ls
+ 1453  ./nginx -h
+ 1454  ./nginx -v
+ 1455  ./nginx -s
+ 1456  ./nginx -s -?
+ 1457  nginx -?
+ 1458  nginx -h
+ 1459  ./nginx -h
+ 1460  ./nginx -?
+ 1461  ./nginx -c?
+ 1462  ./nginx -c
+ 1463  ./nginx -s reload
+ 1464  sudo ./nginx -s reload
+ 1465  cd ..
+ 1466  ls
+ 1467  cd conf
+ 1468  ls
+ 1469  cat nginx.conf
+ 1470  ls
+ 1471  nano nginx.conf
+ 1472  cat nginx.conf
+ 1473  ls
+ 1474  cp nginx.conf nginx20130627.conf
+ 1475  sudo cp nginx.conf nginx20130627.conf
+ 1476  ls
+ 1477  nano nginx.conf
+ 1478  sudo nano nginx.conf
+ 1479  ls
+ 1480  cd ..
+ 1481  ls
+ 1482  cd conf
+ 1483  ../sbin/nginx -s reload
+ 1484  sudo ../sbin/nginx -s reload
+ 1485  sudo nano nginx.conf
+ 1486  sudo ../sbin/nginx -s reload
+ 1487  sudo nano nginx.conf
+ 1488  sudo ../sbin/nginx -s reload
+ 1489  sudo ../sbin/nginx -s reload
+ 1490  sudo nano nginx.conf
+ 1491  sudo ../sbin/nginx -s reload
+ 1492  sudo nano nginx.conf
+ 1493  sudo gedit nginx.conf
+ 1494  sudo ../sbin/nginx -s reload
+ 1495  sudo gedit nginx.conf
+ 1496  sudo ../sbin/nginx -s reload
+ 1497  sudo gedit nginx.conf
+ 1498  sudo ../sbin/nginx -s reload
+ 1499  sudo nano nginx.conf
+ 1500  sudo gedit nginx.conf
+ 1501  sudo ../sbin/nginx -s reload
+ 1502  sudo gedit nginx.conf
+ 1503  sudo ../sbin/nginx -s reload
+ 1504  sudo gedit nginx.conf
+ 1505  sudo ../sbin/nginx -s reload
+ 1506  sudo gedit nginx.conf
+ 1507  ps -ef | grep nginx
+ 1508  pkill -9 nginx
+ 1509  sudo pkill -9 nginx
+ 1510  ps -ef | grep nginx
+ 1511  exit
+ 1512  ping 192.168.60.129
+ 1513  exit
+ 1514  ping 218.16.124.66
+ 1515  cd /etc/hosts
+ 1516  cd /etc
+ 1517  ls
+ 1518  sudo nano hosts
+ 1519  exit
+ 1520  cd /etc/
+ 1521  ls
+ 1522  nano hosts
+ 1523  suso nano hosts
+ 1524  sudo nano hosts
+ 1525  ping jobcn.com
+ 1526  cat hosts
+ 1527  ping jobcn.com
+ 1528  sudo nano hosts
+ 1529  ping www.jobcn.com
+ 1530  sudo nano hosts
+ 1531  exit
+ 1532  cd /opt
+ 1533  ls
+ 1534  cd /opt/gtk
+ 1535  cd 
+ 1536  cd opt
+ 1537  cd /
+ 1538  ls
+ 1539  cd opt
+ 1540  ls
+ 1541  mkdir gtk
+ 1542  sudo mkdir gtk
+ 1543  ls
+ 1544  cd gtk
+ 1545  ls
+ 1546  make
+ 1547  make install
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  rm -rf gtk
+ 1552  sudo rm -rf gtk
+ 1553  ls
+ 1554  cd ~/下载
+ 1555  ls
+ 1556  ls GLi
+ 1557  ls
+ 1558  ls | more
+ 1559  ls g*
+ 1560  mv gdk-pixbuf-2.26.5.tar.xz glib-2.34.3.tar.xz  /home/aaron/software/C++/
+ 1561  ls
+ 1562  ls g*
+ 1563  mv atk-2.6.0.tar.xz pango-1.32.6.tar.xz /home/aaron/software/C++/
+ 1564  ls atk
+ 1565  ls atk*
+ 1566  exit
+ 1567  ls
+ 1568  cd software/
+ 1569  ls
+ 1570  ls -l
+ 1571  cd C++
+ 1572  ls
+ 1573  tar xxvfj gtk+-3.6.4.tar.xz 
+ 1574  tar xvfj gtk+-3.6.4.tar.xz 
+ 1575  tar xvfJ gtk+-3.6.4.tar.xz 
+ 1576  ls
+ 1577  cd gtk+-3.6.4/
+ 1578  ls
+ 1579  cd config
+ 1580  ./configure --prefix=/opt/gtk
+ 1581  make
+ 1582  cd /opt/gtk
+ 1583  cd /opt
+ 1584  ls
+ 1585  cd ..
+ 1586  ls
+ 1587  cd /
+ 1588  ls
+ 1589  cd home
+ 1590  ls
+ 1591  cd aaron
+ 1592  ls
+ 1593  cd software/
+ 1594  cd C++
+ 1595  ls
+ 1596  configure --help
+ 1597  cd gtk+-3.6.4/
+ 1598  configure --help
+ 1599  ./configure --help
+ 1600  ./configure --prefix=/opt/gtk
+ 1601  make
+ 1602  ./make
+ 1603  man make
+ 1604  cd ..
+ 1605  ./configure --prefix=/opt/gtk
+ 1606  sudo make
+ 1607  ls
+ 1608  cd gtk+-3.6.4/
+ 1609  ls
+ 1610  sudo make
+ 1611  sudo ./make
+ 1612  ./make
+ 1613  ls
+ 1614  make
+ 1615  ./make
+ 1616  ls
+ 1617  cat Makefile.in
+ 1618  sudo ./configure --prefix=/opt/gtk
+ 1619  pwd
+ 1620  ls ..
+ 1621  ls
+ 1622  cd ..
+ 1623  ls
+ 1624  pwd
+ 1625  ls
+ 1626  tar xvfJ atk-2.6.0.tar.xz 
+ 1627  ls
+ 1628  tar xvfJ glib-2.34.3.tar.xz 
+ 1629  ls
+ 1630  tar xvfJ gdk-pixbuf-2.26.5.tar.xz 
+ 1631  ls
+ 1632  tar xvfJ pango-1.32.6.tar.xz 
+ 1633  ls
+ 1634  cd atk-2.6.0/
+ 1635  ls
+ 1636  cd ..
+ 1637  ls
+ 1638  cd gtk+-3.6.4/
+ 1639  ls
+ 1640  sudo ./configure --prefix=/opt/gtk
+ 1641  ls
+ 1642  cd ..
+ 1643  ls
+ 1644  cd glib-2.34.3/
+ 1645  ls
+ 1646  sudo ./configure --prefix=/opt/gtk
+ 1647  cd ..
+ 1648  ls
+ 1649  cd gtk+-3.6.4/
+ 1650  ls
+ 1651  cat INSTALL 
+ 1652  cd ..
+ 1653  ls
+ 1654  cat INSTALL 
+ 1655  cd gtk+-3.6.4/
+ 1656  cat INSTALL 
+ 1657  cd ..
+ 1658  ls
+ 1659  cd atk-2.6.0/
+ 1660  ls
+ 1661  cat INSTALL 
+ 1662  cd ..
+ 1663  ls
+ 1664  cd gdk-pixbuf-2.26.5/
+ 1665  cat INSTALL | more
+ 1666  cat INSTALL
+ 1667  cd ..
+ 1668  cd pango-1.32.6/
+ 1669  cat INSTALL | more
+ 1670  cd ..
+ 1671  ls
+ 1672  cd glib-2.34.3/
+ 1673  ls
+ 1674  cat INSTALL | more
+ 1675  cd ..
+ 1676  ls
+ 1677  tar zxf gettext-0.18.2.tar.gz 
+ 1678  ls
+ 1679  cd gettext-0.18.2/
+ 1680  ls
+ 1681  cat INSTALL 
+ 1682  sudo ./configure --prefix=/opt/config
+ 1683  make
+ 1684  sudo make install
+ 1685  cd ..
+ 1686  ls
+ 1687  cd gtk+-3.6.4/
+ 1688  ls
+ 1689  cat INSTALL 
+ 1690  cd ..
+ 1691  ls
+ 1692  cd glib-2.34.3/
+ 1693  ls
+ 1694  cat INSTALL
+ 1695  ./configure
+ 1696  sudo ./configure
+ 1697  sudo ./configure --prefix=/opt/config
+ 1698  cd /opt/config
+ 1699  ls
+ 1700  cd bin
+ 1701  ls
+ 1702  cd ~/software/C++
+ 1703  cd glib-2.34.3/
+ 1704  sudo ./configure --prefix=/usr && make && make install
+ 1705  exit
+ 1706  cd ~
+ 1707  ls
+ 1708  cd software
+ 1709  cd C++
+ 1710  ls
+ 1711  ls ~/下载
+ 1712  mv ~/下载/cairo-1.12.14.tar.xz ~/software/C++/ 
+ 1713  mv ~/下载/gettext-0.18.2.tar.gz ~/software/C++/ 
+ 1714  mv ~/下载/gobject-introspection-1.36.0.tar.xz ~/software/C++/ 
+ 1715  cd /opt
+ 1716  ls
+ 1717  ls config
+ 1718  cd lib
+ 1719  ls
+ 1720  cd config
+ 1721  ls
+ 1722  cd lib
+ 1723  ls
+ 1724  cd ..
+ 1725  ls
+ 1726  cd share
+ 1727  ls
+ 1728  cd ..
+ 1729  ls
+ 1730  cd ..
+ 1731  ls
+ 1732  cd ~/下载
+ 1733  ls
+ 1734  mv pkg-config-0.25.tar.gz ~/software/C++/
+ 1735  ls
+ 1736  cd /opt/config
+ 1737  ls
+ 1738  cd bin
+ 1739  ls
+ 1740  gettext
+ 1741  ./gettext
+ 1742  cd /etc
+ 1743  ls pro*
+ 1744  cat profile
+ 1745  sudo nano profile
+ 1746  sudo gedit profile
+ 1747  exit
+ 1748  ls
+ 1749  cd ~/software/C++/
+ 1750  ls
+ 1751  cd glib-2.34.3/
+ 1752  ls
+ 1753  sudo ./configure --prefix=/usr
+ 1754  cd ..
+ 1755  ls
+ 1756  cd gettext
+ 1757  cd gettext-0.18.2/
+ 1758  ls
+ 1759  sudo ./configure --prefix=/usr
+ 1760  sudo make
+ 1761  sudo make install
+ 1762  sudo make uninstall
+ 1763  sudo ./configure --prefix=/usr
+ 1764  make
+ 1765  sudo make install 
+ 1766  sudo ./configure --prefix=/usr
+ 1767  sudo make && make install
+ 1768  su root
+ 1769  exit
+ 1770  cd /opt/config
+ 1771  ls
+ 1772  cd bin
+ 1773  ls
+ 1774  cd ..
+ 1775  rm -rf config
+ 1776  sudo rm -rf config
+ 1777  ls
+ 1778  sudo gedit /etc/profile
+ 1779  cd /usr
+ 1780  ls
+ 1781  cd lib
+ 1782  ls
+ 1783  cd ..
+ 1784  ls
+ 1785  cd bin
+ 1786  ls
+ 1787  cd ..
+ 1788  ls
+ 1789  cd ..
+ 1790  ls
+ 1791  cd /home
+ 1792  ls
+ 1793  cd aaron
+ 1794  ls
+ 1795  cd software/
+ 1796  ls
+ 1797  cd C++
+ 1798  ls
+ 1799  cd /usr
+ 1800  ls
+ 1801  cd lib
+ 1802  ls pkgc*
+ 1803  cd ..
+ 1804  ls
+ 1805  cd local
+ 1806  ls
+ 1807  cd lbi
+ 1808  cd lib
+ 1809  ls pkgcon*
+ 1810  cd ..
+ 1811  ls
+ 1812  cd ..
+ 1813  find pkgconfig*
+ 1814  find ./pkgconfig*
+ 1815  cd /usr/lib
+ 1816  ls
+ 1817  cd pkgconfig/
+ 1818  ls
+ 1819  ls * .pc
+ 1820  gedit glib-2.0.pc 
+ 1821  cd /etc/
+ 1822  gedit ld.so.conf
+ 1823  cd ~/software/C++
+ 1824  ls
+ 1825  exit
+ 1826  cd /usr/local
+ 1827  ls
+ 1828  cd lib
+ 1829  ls pkgconfig
+ 1830  exit
+ 1831  dpkg -l
+ 1832  cd ~/software/C++
+ 1833  dpkg -l
+ 1834  ls
+ 1835  dpkg -l | atk*
+ 1836  dpkg -l | glib*
+ 1837  dpkg -l | grep glib*
+ 1838  dpkg -l | more
+ 1839  ls
+ 1840  cd atk-2.6.0/
+ 1841  ls
+ 1842  su root
+ 1843  ls
+ 1844  sudo gedit glib-2.0.pc 
+ 1845  cd ~/software/C++
+ 1846  cd atk-2.6.0/
+ 1847  ls
+ 1848  sudo ./configure --prefix=/usr
+ 1849  cd /usr/lib
+ 1850  ls
+ 1851  cd pkgconfig/
+ 1852  ls
+ 1853  export PKG_CONFIG_PATH=/usr/lib/pkgconfig/
+ 1854  LD_LIBRARY_PATH=/usr/lib
+ 1855  cd ~/software/C++/
+ 1856  cd atk-2.6.0/
+ 1857  sudo ./configure --prefix=/usr
+ 1858  cd ..
+ 1859  ls
+ 1860  cd glib-2.34.3/
+ 1861  ls
+ 1862  make uninstall 
+ 1863  sudo make uninstall 
+ 1864  cd /usr
+ 1865  cd lib
+ 1866  ls
+ 1867  ls glib-2.0/
+ 1868  ls
+ 1869  cd ..
+ 1870  ls
+ 1871  cd lib
+ 1872  ls glib-*
+ 1873  cd pkgconfig/
+ 1874  ls
+ 1875  sudo gedit glib-2.0.pc~ 
+ 1876  cd ~/software/C++/glib-2.34.3/
+ 1877  sudo ./configure --prefix=/usr
+ 1878  ls 
+ 1879  cd lib
+ 1880  ls 
+ 1881  make clean
+ 1882  sudo make clean
+ 1883  sudo ./configure --prefix=/usr
+ 1884  mv ~/下载/libffi-3.0.13.tar.gz ~/software/C++/
+ 1885  cd ..
+ 1886  ls
+ 1887  tar -zxvf libffi-3.0.13.tar.gz 
+ 1888  ls
+ 1889  cd libffi-3.0.13/
+ 1890  ls
+ 1891  cat README 
+ 1892  sudo ./configure --prefix=/usr
+ 1893  sudo make && make install
+ 1894  su root
+ 1895  ls
+ 1896  cd ..
+ 1897  ls
+ 1898  cd libxml2-2.9.1/
+ 1899  ls
+ 1900  ./configure --prefix=/usr
+ 1901  sudo ./configure --prefix=/usr
+ 1902  make && make install
+ 1903  sudo make && make install
+ 1904  su root
+ 1905  ls glib*
+ 1906  cd lib
+ 1907  ls glib*
+ 1908  su root
+ 1909  cd /opt/
+ 1910  ls
+ 1911  cd /usr
+ 1912  cd lib
+ 1913  cd .
+ 1914  cd ..
+ 1915  ls
+ 1916  cd lib 
+ 1917  cd glib
+ 1918  ls glib-*
+ 1919  cd glib-2.0/
+ 1920  ls
+ 1921  mv ~/下载/libpng-1.5.6.tar.xz ~/software/C++/
+ 1922  mv ~/下载/cairo-1.10.2.tar.gz ~/software/C++/
+ 1923  cd ~/software/C++
+ 1924  ls
+ 1925  cd /usr
+ 1926  ls
+ 1927  cd lib
+ 1928  ls py*
+ 1929  ls pyth*
+ 1930  ls python*
+ 1931  ls python
+ 1932  ls python*
+ 1933  ls python2*
+ 1934  ls python2.7*
+ 1935  ls python2.7
+ 1936  cd python2.
+ 1937  cd python2.*
+ 1938  ls
+ 1939  cd ..
+ 1940  cd bin
+ 1941  ls
+ 1942  ls python2.5
+ 1943  cd python2.5
+ 1944  ls
+ 1945  cd ..
+ 1946  ls
+ 1947  cd lib
+ 1948  ls
+ 1949  ls python2.5
+ 1950  cd python2.5
+ 1951  ls 
+ 1952  cd site-packages/
+ 1953  ls
+ 1954  cd ..
+ 1955  ls /usr
+ 1956  ls
+ 1957  in -s /usr/lib/python2.5 /usr/bin/python2.5
+ 1958  In -S /usr/lib/python2.5 /usr/bin/python2.5
+ 1959  cd site-packages/
+ 1960  pwd
+ 1961  In -s /usr/lib/python2.5/site-packages/*
+ 1962  ls
+ 1963  cd ~/software/
+ 1964  ls
+ 1965  cd C++
+ 1966  ;ls
+ 1967  ls
+ 1968  cd gdk-pixbuf-2.26.5/
+ 1969  cd ..
+ 1970  ls
+ 1971  killall ibus-daemon
+ 1972  ibus-daemon -d
+ 1973  exit
+ 1974  cd /etc
+ 1975  ls
+ 1976  su root
+ 1977  exit
+ 1978  killall ibus-daemon
+ 1979  su root
+ 1980  killall ibus-daemon
+ 1981  ibus-daemon -d
+ 1982  exit
+ 1983  su root
+ 1984  ps -ef | grep ibus
+ 1985  gsettings set com.canonical.Unity.Panel systray-whitelist "['all']"
+ 1986  dpkg -l | grep ibus
+ 1987  cd /etc
+ 1988  ls
+ 1989  cat ld.so.conf.d
+ 1990  su root
+ 1991  ibus-daemon -d -x -r 
+ 1992  su root
+ 1993  dh -f
+ 1994  df -h
+ 1995  gcc version
+ 1996  cd /home/aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/web
+ 1997  cd /home/aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps
+ 1998  ls
+ 1999  mkdir web
+ 2000  ls
+ 2001  mkdir web
+ 2002  ls
+ 2003  mkdir web
+ 2004  ls
+ 2005  mkdir web
+ 2006  sudo mkdir web
+ 2007  ls
+ 2008  cd ..
+ 2009  ls
+ 2010  cd wtpwebapps/
+ 2011  mkdir web
+ 2012  ls
+ 2013  mkdir web
+ 2014  ls
+ 2015  cd ..
+ 2016  ls
+ 2017  cd wtpwebapps/
+ 2018  ls
+ 2019  sudo mkdir web
+ 2020  ls
+ 2021  sudo mkdir web
+ 2022  cd ..
+ 2023  ls
+ 2024  cd wtpwebapps/
+ 2025  sudo mkdir web
+ 2026  ls
+ 2027  cd ..
+ 2028  cd .
+ 2029  cd ~/
+ 2030  ls
+ 2031  cd workspace/
+ 2032  ls
+ 2033  ls -al
+ 2034  cd .metadata/
+ 2035  ls
+ 2036  ls -al
+ 2037  cd .plugins/
+ 2038  ls
+ 2039  cd org.eclipse.wst.server.core/
+ 2040  ls
+ 2041  cd tmp0
+ 2042  ls
+ 2043  cd work
+ 2044  ls
+ 2045  cd ..
+ 2046  cd temp'
+ 2047  cd temp
+ 2048  ls
+ 2049  ls -al
+ 2050  cd ..
+ 2051  ls
+ 2052  cd wtpwebapps/
+ 2053  ls
+ 2054  cd web
+ 2055  ls
+ 2056  cd common/
+ 2057  ls
+ 2058  cat 1.jsp
+ 2059  cat 2.jsp
+ 2060  ls
+ 2061  cd ..
+ 2062  ls
+ 2063  cd ..
+ 2064  ls
+ 2065  cd web
+ 2066  ls
+ 2067  cd ..
+ 2068  ls
+ 2069  cd ..
+ 2070  ls
+ 2071  cd webapps/
+ 2072  ls
+ 2073  cd ..
+ 2074  ls
+ 2075  cd work
+ 2076  ls
+ 2077  cd Catalina/
+ 2078  ls
+ 2079  cd localhost/
+ 2080  ls
+ 2081  ls -l
+ 2082  cd web
+ 2083  ls
+ 2084  ls -al
+ 2085  cd ~/workspace/
+ 2086  ls
+ 2087  ls -al
+ 2088  cd web
+ 2089  ls
+ 2090  cd .metadata
+ 2091  cd ../.metadata/
+ 2092  ls
+ 2093  ls -al
+ 2094  cd .plugins/
+ 2095  ls
+ 2096  cd org.eclipse.wst.jsdt.web.core/
+ 2097  ls
+ 2098  ls -al
+ 2099  cd ..
+ 2100  ls
+ 2101  cd org.eclipse.wst.server.core
+ 2102  ls
+ 2103  ls -al
+ 2104  cd temp0
+ 2105  cd tmp0/
+ 2106  ls
+ 2107  ls -al
+ 2108  cd temp
+ 2109  ls
+ 2110  ls -al
+ 2111  cd ..
+ 2112  ls
+ 2113  cd work
+ 2114  ls
+ 2115  cd Catalina/
+ 2116  ls
+ 2117  cd localhost/
+ 2118  ls
+ 2119  cd _
+ 2120  ls
+ 2121  ls -al
+ 2122  cd .
+ 2123  ls 
+ 2124  ls -al
+ 2125  cd ..
+ 2126  ls
+ 2127  cd web
+ 2128  ls
+ 2129  ls -al
+ 2130  cd ..
+ 2131  cd .metadata/
+ 2132  search *._jsp.java
+ 2133  find *._jsp.java
+ 2134  ls
+ 2135  ls -al
+ 2136  cd .plugins/
+ 2137  find *.*java
+ 2138  cd ~/software/
+ 2139  ls
+ 2140  cd tomcat/
+ 2141  ls
+ 2142  cd apache-tomcat-7.0.29
+ 2143  ls
+ 2144  cd work
+ 2145  ls -al
+ 2146  cd ..
+ 2147  cd temp
+ 2148  ls
+ 2149  ls -al
+ 2150  cd ~/
+ 2151  ls
+ 2152  cd workspace/
+ 2153  cd .metadata/
+ 2154  pwd
+ 2155  find /home/aaron/workspace/.metadata/*._jsp.java
+ 2156  find /home/aaron/workspace/.metadata/*_jsp*.java
+ 2157  man find
+ 2158  find ./*.java
+ 2159  find / -name *.java
+ 2160  find / -name *_jsp.java
+ 2161  cd /.plugins
+ 2162  ls -al
+ 2163  cd .plugins/
+ 2164  cd org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache
+ 2165  cd org.eclipse.wst.server.core/tmp0/work/Catalina
+ 2166  ls
+ 2167  cd localhost/
+ 2168  ls
+ 2169  cd web
+ 2170  ls
+ 2171  ls -al
+ 2172  find -name 1_jsp.java
+ 2173  find -name ./1_jsp.java
+ 2174  find / -name 1_jsp.java
+ 2175  find / -name *_jsp.java
+ 2176  find / -name 1_jsp.java
+ 2177  sudo find / -name 1_jsp.java
+ 2178  find / -name *_jsp.java | grep 1_jsp.java
+ 2179  find / -name *_jsp.java | grep _1_jsp.java
+ 2180  ls -al /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/
+ 2181  cat /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/_1_jsp.java
+ 2182  rm -rf /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/
+ 2183  cat /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/_1_jsp.java
+ 2184  cat /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/
+ 2185  ls -al /home/aaron/Aaron/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/web/org/apache/jsp/common/
+ 2186  find / -name _2_jsp.java
+ 2187  cat ./org/apache/jsp/common/_2_jsp.java 
+ 2188  cat ./org/apache/jsp/common/_1_jsp.java 
+ 2189  ls ./org/apache/jsp/common/ 
+ 2190  rm -rf ./org/apache/jsp/common/ 
+ 2191  ls ./org/apache/jsp/common/ 
+ 2192  cat ./org/apache/jsp/common/_2_jsp.java 
+ 2193  ls ./org/apache/jsp/common/ 
+ 2194  cd ~
+ 2195  ls
+ 2196  cd Aaron
+ 2197  ls
+ 2198  cd C++
+ 2199  ls
+ 2200  cat copyConstructorFun.cpp
+ 2201  ./copyConstructorFun 
+ 2202  nano virtualFun
+ 2203  rename virtualFun virtualFun.cpp
+ 2204  ls
+ 2205  man rename 
+ 2206  rename -v virtualFun.cpp virtualFun 
+ 2207  move virtualFun virtualFun.cpp 
+ 2208  mv virtual virtual.cpp
+ 2209  mv virtualFun virtualFun.cpp
+ 2210  ls
+ 2211  nano virtualFun.cpp
+ 2212  cat initList.cpp
+ 2213  nano virtualFun.cpp
+ 2214  gcc -o virtualFun virtualFun.cpp 
+ 2215  nano virtualFun.cpp
+ 2216  gcc -o virtualFun virtualFun.cpp 
+ 2217  nano virtualFun.cpp
+ 2218  gcc -o virtualFun virtualFun.cpp 
+ 2219  nano virtualFun.cpp
+ 2220  gcc -o virtualFun virtualFun.cpp 
+ 2221  nano virtualFun.cpp
+ 2222  gcc -o virtualFun virtualFun.cpp 
+ 2223  nano virtualFun.cpp
+ 2224  gcc -o virtualFun virtualFun.cpp 
+ 2225  clear
+ 2226  nano virtualFun.cpp
+ 2227  gcc -o virtualFun virtualFun.cpp 
+ 2228  nano virtualFun.cpp
+ 2229  gcc -o virtualFun virtualFun.cpp 
+ 2230  ls
+ 2231  cat initList.cpp
+ 2232  nano virtualFun.cpp
+ 2233  nano classTemplate.cpp
+ 2234  gcc -o classTemplate classTemplate.cpp 
+ 2235  nano classTemplate.cpp
+ 2236  gcc -o classTemplate classTemplate.cpp 
+ 2237  ls
+ 2238  cat initList.cpp
+ 2239  gcc classTemplate.cpp -o classTemplate 
+ 2240  ls
+ 2241  gcc classTemplate.cpp -o classTemplate
+ 2242  history >comm
