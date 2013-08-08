@@ -1,2 +1,0 @@
-Riffle is licensed under the wxWindows License.
-Please see wxWidgets.org for details.
