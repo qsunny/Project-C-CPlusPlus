@@ -20,6 +20,7 @@ private slots:
 
 private:
     Ui::TextFinder *ui;
+    void loadTextFile();
 };
 
 #endif // TEXTFINDER_H

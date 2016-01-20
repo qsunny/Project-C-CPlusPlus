@@ -1,0 +1,5 @@
+You need a resource file (.qrc) within which you embed the input text file. 
+The input file can be any .
+txt file with a paragraph of text. 
+Create a text file called input.txt and store it in the textfinder folder.
+To add a resource file:
