@@ -5,6 +5,10 @@
 #include <QFile>
 #include <QTextStream>
 #include <QDebug>
+#include <QDateTime>
+#include <QLocale>
+#include <QCloseEvent>
+#include <QSettings>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -16,12 +20,45 @@ MainWindow::MainWindow(QWidget *parent) :
     QObject::connect(ui->actionNew,SIGNAL(triggered()),this,SLOT(newFileSlot()));
     //打开
     QObject::connect(ui->actionOpen,SIGNAL(triggered()),this,SLOT(openSlot()));
+    //保存
+    QObject::connect(ui->actionSave,SIGNAL(triggered()),this,SLOT(saveSlot()));
+    //另存为
+    QObject::connect(ui->actionSaveAs,SIGNAL(triggered()),this,SLOT(saveAsSlot()));
+    //退出
+    QObject::connect(ui->actionQuit,SIGNAL(triggered()),this,SLOT(close()));
+
+    QObject::connect(ui->actionUndo,SIGNAL(triggered()),ui->textEdit,SLOT(undo()));
+    //复制
+    QObject::connect(ui->actionCopy,SIGNAL(triggered()),ui->textEdit,SLOT(copy()));
+    QObject::connect(ui->actionPaste,SIGNAL(triggered()),ui->textEdit,SLOT(paste()));
+    QObject::connect(ui->actionCut,SIGNAL(triggered()),ui->textEdit,SLOT(cut()));
+    QObject::connect(ui->actionSelectAll,SIGNAL(triggered()),ui->textEdit,SLOT(selectAll()));
+    QObject::connect(ui->actionDateTime,SIGNAL(triggered()),this,SLOT(dateTimeSlot()));
+    this->setCurrentFile("");
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+    if (maybeSave()) {
+        writeSettings();
+        event->accept();
+    } else {
+        event->ignore();
+    }
+}
+
+void MainWindow::writeSettings()
+{
+    QSettings settings("QtProject", "Application Example");
+    settings.setValue("pos", pos());
+    settings.setValue("size", size());
+}
+
 
 //新建文件
 void MainWindow::newFileSlot() {
@@ -30,6 +67,7 @@ void MainWindow::newFileSlot() {
 
     if (maybeSave()) {
         ui->textEdit->clear();
+        setCurrentFile("");
     }
 
 
@@ -47,7 +85,7 @@ void MainWindow::openSlot() {
 }
 
 //加载打开的文件
-void MainWindow::loadFile(QString fileName) {
+void MainWindow::loadFile(const QString &fileName) {
     QFile inputFile(fileName);
     if (!inputFile.open(QFile::ReadOnly | QFile::Text)) {
         QMessageBox::warning(this, tr("Application"),
@@ -61,19 +99,56 @@ void MainWindow::loadFile(QString fileName) {
     QString line = in.readAll();
     inputFile.close();
     ui->textEdit->setPlainText(line);
-
+    setCurrentFile(fileName);
 
 }
 
+//保存文件
+bool MainWindow::saveFile() {
+    QFile file(curFile);
+    if (!file.open(QFile::WriteOnly | QFile::Text)) {
+        QMessageBox::warning(this, tr("Application"),
+                             tr("Cannot write file %1:\n%2.")
+                             .arg(curFile)
+                             .arg(file.errorString()));
+        return false;
+    }
+
+    QTextStream out(&file);
+    QString line = ui->textEdit->toPlainText();
+    qDebug()<<line;
+    out<< line;
+    file.close();
+
+    return true;
+}
+
+//另存文件为
+bool MainWindow::saveAsFile() {
+    QFileDialog dialog(this);
+    dialog.setWindowModality(Qt::WindowModal);
+    dialog.setAcceptMode(QFileDialog::AcceptSave);
+    QStringList files;
+    if (dialog.exec())
+      files = dialog.selectedFiles();
+    else
+       return false;
+
+   this->setCurrentFile(files.at(0));
+   return saveFile();
+
+}
 
 bool MainWindow::saveSlot() {
-
-    return false;
+    if (curFile.isEmpty()) {
+        return saveAsFile();
+    } else {
+        return saveFile();
+    }
 }
 
 bool MainWindow::saveAsSlot() {
-
-    return false;
+    return saveAsFile();
 }
 
 void MainWindow::aboutSlot() {
@@ -100,12 +175,43 @@ bool MainWindow::maybeSave()
                      tr("The document has been modified.\n"
                         "Do you want to save your changes?"),
                      QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
-        if (ret == QMessageBox::Save)
-            return saveSlot();
-        else if (ret == QMessageBox::Cancel)
+        if (ret == QMessageBox::Save) {
+            if(curFile.isEmpty()) return saveAsFile();
+            return saveFile();
+
+        } else if (ret == QMessageBox::Cancel) {
             return false;
+        }
     }
     return true;
+}
+
+void MainWindow::setCurrentFile(const QString &fileName) {
+    curFile = fileName;
+    ui->textEdit->document()->setModified(false);
+    setWindowModified(false);
+
+    QString shownName = curFile;
+    if (curFile.isEmpty())
+       shownName = "untitled.txt";
+    setWindowFilePath(shownName);
+
+}
+
+
+void MainWindow::dateTimeSlot() {
+    QDateTime dateTime = QDateTime::currentDateTime();
+    QString curDateTime = dateTime.toString("yyyy-MM-dd hh:mm:ss");
+    qDebug() << curDateTime;
+    QString line = ui->textEdit->toPlainText();
+    if(line.isEmpty()) {
+        ui->textEdit->setPlainText(line+curDateTime);
+    } else {
+        ui->textEdit->setPlainText(line+"\n"+curDateTime);
+    }
+
+
+
 }
 
 

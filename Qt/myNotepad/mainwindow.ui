@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>708</width>
-    <height>474</height>
+    <width>738</width>
+    <height>498</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,9 +19,18 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>711</width>
+      <width>741</width>
       <height>431</height>
      </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
+    </property>
+    <property name="lineWrapMode">
+     <enum>QTextEdit::NoWrap</enum>
     </property>
    </widget>
   </widget>
@@ -30,7 +39,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>708</width>
+     <width>738</width>
      <height>23</height>
     </rect>
    </property>
@@ -50,15 +59,15 @@
     <property name="title">
      <string>编辑(&amp;E)</string>
     </property>
-    <addaction name="action_U"/>
+    <addaction name="actionUndo"/>
     <addaction name="separator"/>
-    <addaction name="action_X"/>
-    <addaction name="action_C"/>
-    <addaction name="action_V"/>
-    <addaction name="action_D"/>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionDel"/>
     <addaction name="separator"/>
-    <addaction name="action_A"/>
-    <addaction name="action_6"/>
+    <addaction name="actionSelectAll"/>
+    <addaction name="actionDateTime"/>
    </widget>
    <addaction name="menu_F"/>
    <addaction name="menu_E"/>
@@ -70,16 +79,36 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionNew">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/new.png</normaloff>:/icons/icons/new.png</iconset>
+   </property>
    <property name="text">
     <string>新建(&amp;N)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
   </action>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/open.png</normaloff>:/icons/icons/open.png</iconset>
+   </property>
    <property name="text">
     <string>打开(&amp;O)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
    </property>
   </action>
   <action name="actionSaveAs">
@@ -93,47 +122,80 @@
    </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/save.png</normaloff>:/icons/icons/save.png</iconset>
+   </property>
    <property name="text">
     <string>保存(&amp;S)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
   </action>
-  <action name="action_U">
+  <action name="actionUndo">
    <property name="text">
     <string>撤消(&amp;U)</string>
    </property>
   </action>
-  <action name="action_X">
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/cut.png</normaloff>:/icons/icons/cut.png</iconset>
+   </property>
    <property name="text">
     <string>剪切(&amp;X)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
   </action>
-  <action name="action_C">
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/copy.png</normaloff>:/icons/icons/copy.png</iconset>
+   </property>
    <property name="text">
     <string>复制(&amp;C)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
   </action>
-  <action name="action_V">
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/paste.png</normaloff>:/icons/icons/paste.png</iconset>
+   </property>
    <property name="text">
     <string>粘贴(&amp;P)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
   </action>
-  <action name="action_D">
+  <action name="actionDel">
    <property name="text">
     <string>删除(&amp;L)</string>
    </property>
   </action>
-  <action name="action_A">
+  <action name="actionSelectAll">
    <property name="text">
     <string>全选(&amp;A)</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
   </action>
-  <action name="action_6">
+  <action name="actionDateTime">
    <property name="text">
     <string>时间/日期</string>
    </property>
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>

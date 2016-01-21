@@ -15,12 +15,20 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+protected:
+    void closeEvent(QCloseEvent *event) Q_DECL_OVERRIDE;
+
 private:
     Ui::MainWindow *ui;
+    QString curFile;
 
 private:
     bool maybeSave();
-    void loadFile(QString filename);
+    void loadFile(const QString &fileName);
+    void setCurrentFile(const QString &fileName);
+    bool saveFile();
+    bool saveAsFile();
+    void writeSettings();
 
 private slots:
 
@@ -30,6 +38,7 @@ private slots:
     bool saveAsSlot();
     void aboutSlot();
     void documentWasModifiedSlot();
+    void dateTimeSlot();
 
 };
 
