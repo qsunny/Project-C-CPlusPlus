@@ -1,0 +1,58 @@
+#ifndef DIALOG_H
+#define DIALOG_H
+
+#include <QDialog>
+class QAction;
+class QDialogButtonBox;
+class QGroupBox;
+class QLabel;
+class QLineEdit;
+class QMenu;
+class QMenuBar;
+class QPushButton;
+class QTextEdit;
+
+namespace Ui {
+class Dialog;
+}
+
+class Dialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit Dialog(QWidget *parent = 0);
+    ~Dialog();
+
+private:
+    Ui::Dialog *ui;
+
+    enum { NumGridRows = 3, NumButtons = 4 };
+
+    QMenuBar *menuBar;
+    QGroupBox *horizontalGroupBox;
+    QGroupBox *gridGroupBox;
+    QGroupBox *formGroupBox;
+    QTextEdit *smallEditor;
+    QTextEdit *bigEditor;
+    QLabel *labels[NumGridRows];
+    QLineEdit *lineEdits[NumGridRows];
+    QPushButton *buttons[NumButtons];
+    QDialogButtonBox *buttonBox;
+
+    QMenu *fileMenu;
+    QAction *exitAction;
+
+private:
+    void createMenu();
+    void createHorizontalGroupBox();
+    void createGridGroupBox();
+    void createFormGroupBox();
+
+
+
+
+
+};
+
+#endif // DIALOG_H
