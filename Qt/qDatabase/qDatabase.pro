@@ -20,3 +20,5 @@ HEADERS  += dialog.h
 FORMS    += dialog.ui
 
 QT += sql
+
+

@@ -21,10 +21,17 @@ private:
     Ui::Dialog *ui;
     QSqlDatabase db;
 
+private slots:
+    void userList();
+    void addUser();
+    void delUser();
+    void updateUser();
+    void changeEditContent();
 
 private:
     bool connDb();
-    void userList();
+    void reloadUserList();
+
 
 };
 
