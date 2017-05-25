@@ -31,6 +31,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// Output {"project":"rapidjson","stars":11}
 	cout << buffer.GetString() << endl;
+
+
+
+
+
+
 	return 0;
 }
 
