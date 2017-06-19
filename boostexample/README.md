@@ -1,7 +1,8 @@
 1. 官网下载boost源码
 2. 解压添加脚本build_boost_1_64_vs2015.bat
-	     call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x86
-    	 
+
+	    call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x86
+    
     	cd boost_1_64_0
     	call bootstrap.bat
     	 
