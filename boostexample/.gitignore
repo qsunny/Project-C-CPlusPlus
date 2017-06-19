@@ -1,0 +1,6 @@
+.vs
+Debug
+Release
+**.VC.db
+x64
+ipch
