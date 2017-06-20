@@ -18,5 +18,10 @@ bool HelloWorldApp::OnInit()
 	frame->SetStatusText(_T("Hello World"));
 	frame->Show(true);
 	SetTopWindow(frame);
+
+	//wxGetApp获取应用引用对象的全局函数
+	HelloWorldApp& app = ::wxGetApp();
+	app.SetVendorName(_T("Aaron.Qiu"));
+	//return false可以使应用退出
 	return true;
 }

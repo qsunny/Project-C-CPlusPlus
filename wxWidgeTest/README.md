@@ -107,3 +107,7 @@ WxWidget3.1.0+vs2015编译+HelloWorld
     wxtiff.lib
     wxzlib.lib
 
+10 参考文档: https://wiki.wxwidgets.org/Guides_%26_Tutorials
+			https://wiki.wxwidgets.org/Documentation
+
+
