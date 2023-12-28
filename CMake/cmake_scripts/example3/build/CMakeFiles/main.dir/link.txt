@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/src/main.cpp.o -o /data/temp/main   -L/data/workspace-cpp/cmake_shell/example3/lib  -Wl,-rpath,/data/workspace-cpp/cmake_shell/example3/lib -lpthread -lcalc 

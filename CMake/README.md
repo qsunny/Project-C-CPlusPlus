@@ -33,4 +33,4 @@ ex1 [示例来源](http://www.ibm.com/developerworks/cn/linux/l-cn-cmake/ "cn-cm
     mkae
     make test
 
-
+- [CMake文档](https://subingwen.cn/cmake/CMake-primer/)
